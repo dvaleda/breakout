@@ -25,14 +25,14 @@ let bar = {
     y: 0, 
     width: 100,
     height: 15,
-    speed: 6 // px po frameu
+    speed: 10 // px po frameu
 };
 
 let ball = {
     x: 0, // položaj centra loptice
     y: 0,
     size: 10,
-    speed: 5, // px po frameu
+    speed: 6, // px po frameu
     vx: 0, // horizontalna brzina
     vy: 0, // vertikalna brzina
 

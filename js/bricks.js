@@ -80,6 +80,7 @@ function drawBricks() {
     }
 }
 
+let faster = false;
 let score = 0;
 function brickHit() {
 
@@ -113,6 +114,14 @@ function brickHit() {
 
                 // najplići sudar da se vidi gdje će se odbit loptica
                 const minOverlap = Math.min(overlapLeft, overlapRight, overlapTop, overlapBottom);
+
+                // kutni sudar za ubrzanje
+                const diff = Math.abs(overlapLeft - overlapTop);
+                if (diff < 5) {
+                    // console.log("test");
+                    ball.vx *= 1.1;
+                    ball.vy *= 1.1;
+                }
 
                 if (minOverlap === overlapLeft) {
                     ball.vx = -Math.abs(ball.vx); // invert horizontalne brzine desno
