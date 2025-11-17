@@ -1,0 +1,23 @@
+{
+  "name": "lab3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "game.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvaleda/breakout.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvaleda/breakout/issues"
+  },
+  "homepage": "https://github.com/dvaleda/breakout#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
