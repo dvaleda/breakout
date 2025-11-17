@@ -1,0 +1,12 @@
+body {
+    background: #111;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    display: block; /* dimenzije se ne smiju mijenjati */
+}
